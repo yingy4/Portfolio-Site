@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+  <title>My Portfolio</title>
+</head>
+  <body>
+    <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-md-6"><img class="logo" src="images/panda_logo.png" alt="Panda logo"></div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="header">Jane Doette</h1>
+          <h4 class="second-header">Front-end Ninja</h4>
+        </div>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="hr1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      <img src="images/panda1.jpg" class="img-responsive" alt="Big panda">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="middle-title">Featured Work</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/panda2.jpg" class="img-responsive" alt="panda1" data-toggle="modal" data-target="#panda1">
+        <h3 class="text-center small-title">Panda1</h3>
+        <p class="text-center"><a href="http://github.com/">http://github.com/Panda1</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/panda3.jpg" class="img-responsive" alt="panda2" data-toggle="modal" data-target="#panda2">
+        <h3 class="text-center small-title">Panda2</h3>
+        <p class="text-center"><a href="http://github.com/">http://github.com/Panda2</a></p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/panda4.jpg" class="img-responsive" alt="panda3" data-toggle="modal" data-target="#panda3">
+        <h3 class="text-center small-title">Panda3</h3>
+        <p class="text-center"><a href="http://github.com/">http://github.com/Panda3</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="panda1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Panda1</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/panda2.jpg">
+                This is the first Panda, it comes from Sichuan.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="panda2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Panda2</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/panda3.jpg">
+                This is the second Panda, it comes from Hunan.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="panda3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Panda3</h4>
+            </div>
+            <div class="modal-body">
+                <img class="img-responsive" src="images/panda4.jpg">
+                This is the third Panda, it comes from Gansu.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

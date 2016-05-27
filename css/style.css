@@ -1,0 +1,27 @@
+body {
+	font-family: 'Lato', sans-serif;	
+}
+.logo {
+	max-width: 20%;
+}
+.header {
+	color: #2d3c49;
+	font-weight: 300;
+	font-size: 48px;
+}
+.second-header {
+	color: #2d3c49;
+	font-weight: 300;
+}
+.middle-title {
+	color: #7d97ad;
+	font-weight: 700;
+	font-size: 40px;
+}
+.small-title {
+	font-weight: 700;	
+	font-size: 36px;
+}
+.hr1{ 
+	border-top:3px solid #7d97ad;
+}
